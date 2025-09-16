@@ -1,0 +1,23 @@
+#making a star with turtle window and pen
+import turtle
+turtle.Screen().bgcolor("lightgreen")
+board=turtle.Turtle()
+board.pensize(7)
+board.pencolor("black")
+board.forward(100)
+board.left(120)
+board.forward(100)
+board.left(120)
+board.forward(100)
+board.penup()
+board.right(150)
+board.forward(50)
+#second triangle
+board.pendown()
+board.right(90)
+board.forward(100)
+board.right(120)
+board.forward(100)
+board.right(120)
+board.forward(100)
+turtle.done()
