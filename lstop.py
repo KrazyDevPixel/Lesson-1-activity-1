@@ -1,0 +1,20 @@
+#operations on a list
+lst=["Guava","Mango","Banana","Orange"]
+print("Length of the list: ",len(lst))
+print("List's first element: ",lst[0])
+print("List's last element: ",lst[-1])
+lst.append("Papaya")
+print("Updated list : ",lst)
+lst.remove("Guava")
+print("Updated list : ",lst)
+lst.sort()
+print("Sorted list is: ",lst)
+lst.pop(1)
+print("Updated list : ",lst)
+lst.reverse()
+print("Reversed list is: ",lst)
+print("Multiplied list is: ",lst*2)
+lst=lst[:3]
+print("Sliced list: ",lst)
+lst.clear()
+print("Cleared list: ",lst)
