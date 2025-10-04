@@ -18,10 +18,10 @@ class Square(Rectangle):
         self.side = new_side
         self.width = new_side
         self.height = new_side
-# 🧪 Usage Examples
 rect = Rectangle(5, 10)
 print(f"Rectangle area: {rect.get_area()}") 
 square = Square(7)
 print(f"Square area: {square.get_area()}")  
 square.set_side(9)
+
 print(f"New square area: {square.get_area()}")
