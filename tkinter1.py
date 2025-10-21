@@ -1,0 +1,18 @@
+from tkinter import *
+window=Tk()
+window.title("Sampleee window")
+window.geometry('300x300')
+greetings=Label(text="Hello user!",fg='Black',bg='White')
+clickme=Button(text="Hello user!",bg='Black',fg='White')
+Entry=Entry(fg='Blue',bg='Yellow',width=-50)
+greetings.pack()
+clickme.pack()
+Entry.pack()
+frame=Frame(master=window,relief=RAISED,borderwidth=5)
+frame.pack()
+label=Label(master=frame,text="Sample Frame")
+label.pack()
+
+textbox=Text(fg='green',bg='yellow')
+textbox.pack()
+window.mainloop()
